@@ -1,24 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import SectionOne from "./components/sectionone/sectionone";
+import SectionTwo from "./components/sectiontwo/sectiontwo";
+import SectionThree from "./components/sectionthree/sectionthree";
+import SectionFour from "./components/sectionfour/sectionfour";
+import SectionFive from "./components/sectionfive/sectionfive";
+import SectionSix from "./components/sectionsix/sectionsix";
+import SectionSeven from "./components/sectionseven/sectionseven";
+import SectionEight from "./components/sectioneight/sectioneight";
+import SectionNine from "./components/sectionnine/sectionnine";
+import SectionTen from "./components/sectionten/sectionten";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="whole-container">
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
+      <SectionFive />
+      <SectionSix />
+      <SectionEight />
+      <SectionSeven />
+      <SectionNine />
+      <SectionTen />
+      <Footer/>
     </div>
   );
 }
